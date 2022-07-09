@@ -1,0 +1,26 @@
+.three-columns {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../assets/3-Columns-Background.png);
+}
+.column {
+    justify-items: right;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.counter {
+    font-size: 90px;
+}
+
+.title {
+    font-size: 18px; 
+        text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 18px;
+    justify-content: right;
+}
+    

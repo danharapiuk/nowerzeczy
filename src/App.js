@@ -1,13 +1,26 @@
-import './scss/App.scss';
+import './scss/main.scss';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import ErrorPage from './pages/ErrorPage';
+import Home from './pages/Home';
+import Register from './pages/Register';
+import Login from './pages/Login';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>testy</p>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
+        <Route path='*' element ={<ErrorPage />} />
+      </Routes>
+      <div>Footer</div>
+    </Router>
   );
 }
 
 export default App;
+ 
