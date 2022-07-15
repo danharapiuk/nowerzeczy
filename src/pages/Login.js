@@ -4,8 +4,13 @@ const Login = () => {
   return (
     <div>
       <h1>Login</h1>
-      <input type='text' placeholder='e-mail'>Email</input>
-      <input type='text' placeholder='hss'>Hasło</input>
+      <label>Email
+<input type='text' placeholder='e-mail' />
+      </label>
+      <label>Hasło
+         <input type='text' placeholder='hss' />
+      </label>
+     
       <button>Login</button>
     </div>
   );

@@ -1,0 +1,23 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.hero-image {
+    background-image: url(../assets/Home-Hero-Image.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 50%;
+    height: 500px;
+
+}
+
+.content {
+  
+}
+
+.buttons {
+    display: flex;
+}
+

@@ -17,7 +17,7 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='*' element ={<ErrorPage />} />
       </Routes>
-      <div>Footer</div>
+        <div>Footer</div>
     </Router>
   );
 }

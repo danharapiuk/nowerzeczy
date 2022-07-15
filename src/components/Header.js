@@ -1,9 +1,10 @@
 import '../scss/Header.scss';
+import '../scss/main.scss';
 import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <header className='header'>
+    <header className='header container'>
       <ul className='login'>
         <li><Link to='/login'>Zaloguj</Link></li>
         <li><Link to='/register'>Załóż konto</Link></li>

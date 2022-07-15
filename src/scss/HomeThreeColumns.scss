@@ -1,8 +1,15 @@
-.three-columns {
+.columns {
     display: flex;
     justify-content: space-between;
-    background-image: url(../assets/3-Columns-Background.png);
+    text-align: center;
 }
+
+.three-columns {
+    background-image: url(../assets/3-Columns-Background.png);
+    object-fit: none;
+    justify-content: center;
+}
+
 .column {
     justify-items: right;
     align-items: center;
