@@ -1,14 +1,18 @@
 import React from 'react'
 import '../scss/Home.scss';
 
-import HomeThreeColumns from '../components/HomeThreeColumns';
+import ThreeColumnsHome from '../components/ThreeColumnsHome';
 import Hero from '../components/Hero';
+import FourSteps from '../components/FourSteps';
+
 
 function Home () {
   return (
     <>
       <Hero />
-      <HomeThreeColumns />
+      <ThreeColumnsHome />
+      <FourSteps />
+
       </>
   );
 }
