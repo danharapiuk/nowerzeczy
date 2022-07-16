@@ -15,7 +15,7 @@ function FourStepsDwa() {
         subtitle='Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.'
         /></div>
       <div><Column
-        counter='10'
+        counter='7'
         title='Zorganizowanych zbiórek'
         subtitle='Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.'
         /></div>

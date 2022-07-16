@@ -7,6 +7,7 @@ function Step({ icon, title, text }) {
     <div className='step'>
         <div>{icon}</div>
         <p>{title}</p>
+        <hr></hr>
         <p>{text}</p>
       </div>
   );

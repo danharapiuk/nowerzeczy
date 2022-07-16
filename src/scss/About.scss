@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    padding-top: 50px;
+}
+
+.first {
+    width: 50%;
+    text-align: center;
+        background-color: #F0F1F1;
+        p {
+            max-width: 650px;
+            margin: 0 auto;
+            font-size: 30px;
+        }
+        .signature {
+            margin-top: 30px;
+            margin-left: 300px;
+            justify-content: right;
+        }
+}
+
+.second {
+    width: 50%;
+}

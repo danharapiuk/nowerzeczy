@@ -4,6 +4,8 @@ import '../scss/Home.scss';
 import ThreeColumnsHome from '../components/ThreeColumnsHome';
 import Hero from '../components/Hero';
 import FourSteps from '../components/FourSteps';
+import About from '../components/About';
+import WhoWeHelp from '../components/WhoWeHelp';
 
 
 function Home () {
@@ -12,6 +14,8 @@ function Home () {
       <Hero />
       <ThreeColumnsHome />
       <FourSteps />
+      <About />
+      <WhoWeHelp />
 
       </>
   );
