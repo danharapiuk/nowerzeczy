@@ -11,7 +11,7 @@ function Header() {
     <div className='hero container'>
       
       <div className='hero-image'>
-        <img src={Image} height={700} alt='hero' />
+        <img src={Image} height={500} alt='hero' />
       </div>
 
       <div className='content'>

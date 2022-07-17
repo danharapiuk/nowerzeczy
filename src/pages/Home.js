@@ -6,6 +6,7 @@ import Hero from '../components/Hero';
 import FourSteps from '../components/FourSteps';
 import About from '../components/About';
 import WhoWeHelp from '../components/WhoWeHelp';
+import Contact from '../components/Contact';
 
 
 function Home () {
@@ -16,7 +17,7 @@ function Home () {
       <FourSteps />
       <About />
       <WhoWeHelp />
-
+      <Contact />
       </>
   );
 }

@@ -15,8 +15,11 @@ function Header() {
         <li><Link to='/'>Start</Link></li>
         <li><LinkScroll to="four-steps-id" spy={true} smooth={true} offset={50} duration={500}>O co chodzi?</LinkScroll></li>
         <li><LinkScroll to="about" spy={true} smooth={true} offset={50} duration={500}>O nas</LinkScroll></li>
-        <li>Fundacja i organizacje</li>
-        <li>Kontakt</li>
+        <li><LinkScroll to="fundacja" spy={true} smooth={true} offset={50} duration={500}>Fundacja i organizacje</LinkScroll></li>
+        <li><LinkScroll to="contact" spy={true} smooth={true} offset={50} duration={500}>Kontakt</LinkScroll></li>
+
+
+        
       </ul>
     </header>  
   );

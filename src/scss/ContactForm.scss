@@ -1,0 +1,44 @@
+.form1 {
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+    margin-bottom: 30px;
+        
+    label p {
+        font-size: 12px;
+    }
+    input {
+        background-color: transparent;
+        color: grey;
+    }
+}
+
+.formularz {
+    width: 700px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.form2 {
+    input {
+    width: 600px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: grey;
+    }
+    label p {
+        font-size: 12px;
+    }
+}
+
+.submitBtn {
+    margin-top: 30px;
+    margin-left: 470px;
+
+}

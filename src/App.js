@@ -6,6 +6,7 @@ import ErrorPage from './pages/ErrorPage';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
+import Wylogowano from './pages/Wylogowano';
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/wylogowano' element={<Wylogowano />} />
         <Route path='*' element ={<ErrorPage />} />
       </Routes>
-        <div>Footer</div>
     </Router>
   );
 }

@@ -1,12 +1,15 @@
 import React from 'react';
 import '../scss/Login.scss';
-import Decoration from '../assets/Decoration.svg';
+import '../scss/main.scss';
+import Heading from '../components/Heading';
+import ButtonLogin from '../components/BtnLogin';
 
 const Login = () => {
   return (
-    <div class='container test'>
-      <h1>Zaloguj się</h1>
-      <img src={Decoration} height={33} alt='decoration' className='decoration' />
+    <div class='container px'>
+      <Heading
+        text='Zaloguj się'
+      />
 
       <div class='form'>
         <label>Email
@@ -16,12 +19,19 @@ const Login = () => {
           <input type='text' placeholder='' />
         </label>
       </div>
-<div className='buttony'>
-        <button class='login-btn'>Załóz konto</button>
-          <button class='login-btn'>Login</button>
-          </div>
 
-    </div>
+      <div className='buttons'>
+        <div>
+        <ButtonLogin 
+          text='Zaloguj się'
+          link='/login'
+        /></div>
+        <div><ButtonLogin 
+          text='Załóz konto'
+          link='/register'
+        /></div>
+      </div>
+      </div>
   );
 };
 
