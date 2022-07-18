@@ -16,7 +16,9 @@ const Login = () => {
           <input type='text' placeholder='' />
         </label>
         <label>Hasło
-          <input type='text' placeholder='' />
+          <input type='text'
+            placeholder=''
+            minLength="6"/>
         </label>
       </div>
 
